@@ -28,7 +28,7 @@ Log in as administrator:
 
 
 ### Accesing registry CRC
-docker login -u erdnando -p $(oc whoami -t) default-route-openshift-image-registry.apps-crc.testing                                                                      
+docker login -u erdnando -p $(oc whoami -t) default-route-openshift-image-registry.apps-crc.testing
 
 WARNING! Using --password via the CLI is insecure. Use --password-stdin.
 WARNING! Your password will be stored unencrypted in /home/erdnando/.docker/config.json.

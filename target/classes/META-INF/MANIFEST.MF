@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: erdnando
+Build-Jdk: 17.0.3.1
+Implementation-Title: kafka-consumer
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.asb.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/kafka-consumer
+Created-By: Maven Integration for Eclipse
+
