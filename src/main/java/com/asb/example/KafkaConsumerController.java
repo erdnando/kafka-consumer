@@ -16,7 +16,7 @@ public class KafkaConsumerController {
 	@KafkaListener(topics = { "my-topic" })
 	public void getTopics(@RequestBody String emp) {
 		System.out.println("Kafka event consumed is: " + emp);
-		Employee model = gson.fromJson(emp, Employee.class);
+		Message model = gson.fromJson(emp, Message.class);
 		System.out.println("Model converted value: " + model.toString());
 	}
 }
