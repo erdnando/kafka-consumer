@@ -25,7 +25,7 @@ public class KafkaConsumerConfig {
 		config.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 		config.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 		
-		//config.put(ConsumerConfig.GROUP_ID_CONFIG, "myGroupId");
+		config.put(ConsumerConfig.GROUP_ID_CONFIG, "myGroupId");
 		config.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, false);
 		
 		return new DefaultKafkaConsumerFactory<>(config, new StringDeserializer(), new StringDeserializer());
