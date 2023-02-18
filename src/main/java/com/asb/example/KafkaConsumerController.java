@@ -13,7 +13,8 @@ public class KafkaConsumerController {
 	@Autowired
 	private Gson gson;
 
-	@KafkaListener(topics = { "my-topic" })
+//	@KafkaListener(topics = { "my-topic" })
+	@KafkaListener(topics = { "topic-slack" })
 	public void getTopics(@RequestBody String emp) {
 		System.out.println("Kafka event consumed is: " + emp);
 		Message model = gson.fromJson(emp, Message.class);
