@@ -15,7 +15,7 @@ public class KafkaConsumerController {
 
 //	@KafkaListener(topics = { "my-topic" })
 //	@KafkaListener(topics = { "topic-slack" })
-	@KafkaListener(topics = { "categoria-connector-mysql---b157752a69d789dd49baca97cd821f625a638c3d" })
+	@KafkaListener(topics = { "categoria_connector_mysql" })
 	public void getTopics(@RequestBody String emp) {
 		System.out.println("Kafka event consumed is: " + emp);
 		Message model = gson.fromJson(emp, Message.class);
