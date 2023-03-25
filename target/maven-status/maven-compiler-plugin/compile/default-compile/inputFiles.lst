@@ -1,4 +1,4 @@
-/run/media/erdnando/0e74f96b-2899-46dc-b2b5-b0c41d7d9697/projectos/kafka/amq-streams/kafka-consumer/src/main/java/com/asb/example/Message.java
-/run/media/erdnando/0e74f96b-2899-46dc-b2b5-b0c41d7d9697/projectos/kafka/amq-streams/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerConfig.java
-/run/media/erdnando/0e74f96b-2899-46dc-b2b5-b0c41d7d9697/projectos/kafka/amq-streams/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerApplication.java
-/run/media/erdnando/0e74f96b-2899-46dc-b2b5-b0c41d7d9697/projectos/kafka/amq-streams/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerController.java
+/home/erdnando/eclipse-workspace/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerConfig.java
+/home/erdnando/eclipse-workspace/kafka-consumer/src/main/java/com/asb/example/Message.java
+/home/erdnando/eclipse-workspace/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerController.java
+/home/erdnando/eclipse-workspace/kafka-consumer/src/main/java/com/asb/example/KafkaConsumerApplication.java

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: erdnando
-Build-Jdk: 17.0.3.1
+Build-Jdk: 17.0.6
 Implementation-Title: kafka-consumer
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.asb.example
