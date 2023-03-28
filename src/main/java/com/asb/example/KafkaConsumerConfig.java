@@ -27,6 +27,8 @@ public class KafkaConsumerConfig {
 		
 		config.put(ConsumerConfig.GROUP_ID_CONFIG, "myGroupId");
 		config.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, false);
+		//config.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest"); //read from beggining
+		
 		
 		return new DefaultKafkaConsumerFactory<>(config, new StringDeserializer(), new StringDeserializer());
 	}
